@@ -1,18 +1,18 @@
 MESAJ="DTÖUserBot Avtomatik Deploy Qurulumuna Xoş Geldiniz"
 MESAJ+="\nTelegram: @DTOUserBot"
-pkg update -y
+apt update 
 clear
 echo -e $MESAJ
-echo "Python yüklenir"
-pkg install python -y
+echo "Python3 yüklenir"
+apt install python3 
 clear
 echo -e $MESAJ
 echo "Git yüklenir"
-pkg install git -y
+apt install git
 clear
 echo -e $MESAJ
 echo "TeleThon yüklenir"
-pip install telethon
+pip3 install telethon
 echo "Repo klonlanır..."
 git clone https://github.com/umudmmmdov1/Qurulum
 clear
@@ -21,6 +21,6 @@ cd Qurulum
 clear
 echo "Kitabxana yüklenir"
 echo -e $MESAJ
-pip install wheel
-pip install -r requirements.txt
-python -m dto_installer
+pip3 install wheel
+pip3 install -r requirements.txt
+python3 -m dto_installer
