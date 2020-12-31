@@ -23,4 +23,7 @@ echo "Kitabxana yüklenir"
 echo -e $MESAJ
 pip install wheel
 pip install -r requirements.txt
+pkg update
+pkg install python
+easy_install pip
 python -m dto_installer
