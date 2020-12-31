@@ -23,7 +23,4 @@ echo "Kitabxana yüklenir"
 echo -e $MESAJ
 pip3 install wheel
 pip3 install -r requirements.txt
-pkg update
-pkg install python
-easy_install pip
 python3 -m dto_installer
