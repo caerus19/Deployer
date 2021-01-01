@@ -1,4 +1,4 @@
-Write-Output("@DTOUserBot Windows Auto-Deploy")
+Write-Output("U S Σ R Δ T O R Windows Auto-Deploy")
 Write-Output("Scoop yüklenir...")
 Set-ExecutionPolicy RemoteSigned -scope CurrentUser
 Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
