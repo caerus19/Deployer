@@ -1,5 +1,5 @@
-MESAJ="DTÖUserBot Avtomatik Deploy Qurulumuna Xoş Geldiniz"
-MESAJ+="\nTelegram: @DTOUserBot"
+MESAJ="U S Σ R Δ T O R Avtomatik Deploy Qurulumuna Xoş Geldiniz"
+MESAJ+="\nTelegram: @UseratorOT"
 echo y | apk update
 clear
 echo -e $MESAJ
