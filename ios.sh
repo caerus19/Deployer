@@ -13,7 +13,7 @@ clear
 echo -e $MESAJ
 echo "TeleThon yüklenir"
 python3 -m pip install telethon
-echo "Repo klonlanır..."
+echo "Repo klonlanır"
 git clone https://github.com/umudmmmdov1/Qurulum
 clear
 echo -e $MESAJ
