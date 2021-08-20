@@ -14,7 +14,7 @@ echo -e $MESAJ
 echo "TeleThon yüklenir"
 pip3 install telethon
 echo "Repo klonlanır..."
-git clone https://github.com/umudmmmdov1/Qurulum
+git clone https://github.com/caerus19/Qurulum
 clear
 echo -e $MESAJ
 cd Qurulum
